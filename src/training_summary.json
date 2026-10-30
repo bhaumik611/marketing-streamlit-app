@@ -1,0 +1,103 @@
+{
+  "dataset": "UCI Bank Marketing (bank-full.csv)",
+  "dataset_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "dataset_page": "https://archive.ics.uci.edu/dataset/222/bank%2Bmarketing",
+  "rows_used": 45211,
+  "original_predictor_count": 16,
+  "predictor_count_used": 11,
+  "predictors_used": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month"
+  ],
+  "excluded_predictors": [
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "positive_rate": 0.11698480458295547,
+  "class_counts_0_no_1_yes": {
+    "0": 39922,
+    "1": 5289
+  },
+  "split_rows": {
+    "train": 31647,
+    "validation": 6781,
+    "test": 6783
+  },
+  "encoded_feature_count": 43,
+  "chosen_l2_strength": 0.0,
+  "validation_selected_threshold_by_f1": 0.16,
+  "test_metrics": {
+    "threshold": 0.16,
+    "accuracy": 0.7838714433141678,
+    "precision": 0.2689133425034388,
+    "recall": 0.4924433249370277,
+    "specificity": 0.8225079312072132,
+    "f1": 0.34786476868327404,
+    "roc_auc": 0.7159561631252593,
+    "average_precision": 0.2626123779056266,
+    "tn": 4926,
+    "fp": 1063,
+    "fn": 403,
+    "tp": 391
+  },
+  "split_metrics": {
+    "train": {
+      "threshold": 0.16,
+      "accuracy": 0.7769456820551711,
+      "precision": 0.2569856667149269,
+      "recall": 0.47947055645596975,
+      "specificity": 0.816353551619252,
+      "f1": 0.3346215477424828,
+      "roc_auc": 0.7112990043052654,
+      "average_precision": 0.2562372197614311,
+      "tn": 22813,
+      "fp": 5132,
+      "fn": 1927,
+      "tp": 1775
+    },
+    "validation": {
+      "threshold": 0.16,
+      "accuracy": 0.781743105736617,
+      "precision": 0.26359256710254647,
+      "recall": 0.48297604035308955,
+      "specificity": 0.821309285237141,
+      "f1": 0.3410507569011576,
+      "roc_auc": 0.7117467385380261,
+      "average_precision": 0.2445576410673732,
+      "tn": 4918,
+      "fp": 1070,
+      "fn": 410,
+      "tp": 383
+    },
+    "test": {
+      "threshold": 0.16,
+      "accuracy": 0.7838714433141678,
+      "precision": 0.2689133425034388,
+      "recall": 0.4924433249370277,
+      "specificity": 0.8225079312072132,
+      "f1": 0.34786476868327404,
+      "roc_auc": 0.7159561631252593,
+      "average_precision": 0.2626123779056266,
+      "tn": 4926,
+      "fp": 1063,
+      "fn": 403,
+      "tp": 391
+    }
+  },
+  "train_validation_roc_auc_gap": -0.00044773423276067703,
+  "fit_diagnosis": "No strong overfitting signal under this split: compare training and validation curves. This does not establish future-campaign performance.",
+  "seed": 42,
+  "epochs_per_candidate": 500
+}

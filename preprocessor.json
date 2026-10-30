@@ -1,0 +1,130 @@
+{
+  "numeric_medians": {
+    "age": 39.0,
+    "balance": 450.0,
+    "day": 16.0
+  },
+  "numeric_means": {
+    "age": 40.89948494328056,
+    "balance": 1376.1824185546814,
+    "day": 15.801497772300692
+  },
+  "numeric_scales": {
+    "age": 10.670582089789859,
+    "balance": 3105.3831512393836,
+    "day": 8.317655823305582
+  },
+  "categories": {
+    "job": [
+      "admin.",
+      "blue-collar",
+      "entrepreneur",
+      "housemaid",
+      "management",
+      "retired",
+      "self-employed",
+      "services",
+      "student",
+      "technician",
+      "unemployed",
+      "unknown"
+    ],
+    "marital": [
+      "divorced",
+      "married",
+      "single"
+    ],
+    "education": [
+      "primary",
+      "secondary",
+      "tertiary",
+      "unknown"
+    ],
+    "default": [
+      "no",
+      "yes"
+    ],
+    "housing": [
+      "no",
+      "yes"
+    ],
+    "loan": [
+      "no",
+      "yes"
+    ],
+    "contact": [
+      "cellular",
+      "telephone",
+      "unknown"
+    ],
+    "month": [
+      "apr",
+      "aug",
+      "dec",
+      "feb",
+      "jan",
+      "jul",
+      "jun",
+      "mar",
+      "may",
+      "nov",
+      "oct",
+      "sep"
+    ]
+  },
+  "reference_categories": {
+    "job": "admin.",
+    "marital": "divorced",
+    "education": "primary",
+    "default": "no",
+    "housing": "no",
+    "loan": "no",
+    "contact": "cellular",
+    "month": "apr"
+  },
+  "feature_names": [
+    "age",
+    "balance",
+    "day",
+    "job=blue-collar",
+    "job=entrepreneur",
+    "job=housemaid",
+    "job=management",
+    "job=retired",
+    "job=self-employed",
+    "job=services",
+    "job=student",
+    "job=technician",
+    "job=unemployed",
+    "job=unknown",
+    "job=__UNSEEN__",
+    "marital=married",
+    "marital=single",
+    "marital=__UNSEEN__",
+    "education=secondary",
+    "education=tertiary",
+    "education=unknown",
+    "education=__UNSEEN__",
+    "default=yes",
+    "default=__UNSEEN__",
+    "housing=yes",
+    "housing=__UNSEEN__",
+    "loan=yes",
+    "loan=__UNSEEN__",
+    "contact=telephone",
+    "contact=unknown",
+    "contact=__UNSEEN__",
+    "month=aug",
+    "month=dec",
+    "month=feb",
+    "month=jan",
+    "month=jul",
+    "month=jun",
+    "month=mar",
+    "month=may",
+    "month=nov",
+    "month=oct",
+    "month=sep",
+    "month=__UNSEEN__"
+  ]
+}
